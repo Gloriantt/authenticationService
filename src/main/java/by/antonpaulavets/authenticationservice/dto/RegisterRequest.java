@@ -1,5 +1,6 @@
-package by.antonpaulavets.authenticationservice.model;
+package by.antonpaulavets.authenticationservice.dto;
 
+import by.antonpaulavets.authenticationservice.model.Role;
 import lombok.Data;
 
 @Data

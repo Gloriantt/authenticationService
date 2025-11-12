@@ -1,4 +1,4 @@
-package by.antonpaulavets.authenticationservice.model;
+package by.antonpaulavets.authenticationservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,10 +1,10 @@
 package by.antonpaulavets.authenticationservice.controller;
 
 
-import by.antonpaulavets.authenticationservice.model.AuthRequest;
-import by.antonpaulavets.authenticationservice.model.AuthResponse;
-import by.antonpaulavets.authenticationservice.model.RegisterRequest;
-import by.antonpaulavets.authenticationservice.model.TokenValidationResponse;
+import by.antonpaulavets.authenticationservice.dto.AuthRequest;
+import by.antonpaulavets.authenticationservice.dto.AuthResponse;
+import by.antonpaulavets.authenticationservice.dto.RegisterRequest;
+import by.antonpaulavets.authenticationservice.dto.TokenValidationResponse;
 import by.antonpaulavets.authenticationservice.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/auth")
+    @RequestMapping("/auth")
 @RequiredArgsConstructor
 public class AuthController {
 
